@@ -1,5 +1,6 @@
 #sectionGr5{
-    overflow-x: hidden ;
+    position: relative;
+    overflow-x: hidden;
 }
 
 #gr5Bg{
@@ -9,8 +10,8 @@
     background-image: url("../Img/Fond/gr5.png");
     background-position: right;
     background-repeat: no-repeat;
-    transform: translateX(20%);
-    
+    transform: translateX(20%);  
+    overflow-x: hidden ;  
 }
 
 #gr5{
