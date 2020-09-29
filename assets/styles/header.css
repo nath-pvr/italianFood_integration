@@ -10,17 +10,18 @@ header {
 #menuContainer{
     
     display: flex;
+    justify-content: space-around;
 }
 
 
 #olive {
-
     width: 10%;
 }
 
 #menuContainer ul{
-    width: 90%;
+    width: 50%;
     display: flex;
+    font-size: 3rem;
     align-items: center;
     justify-content: space-around;
 }
