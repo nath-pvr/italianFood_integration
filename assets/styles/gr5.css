@@ -36,13 +36,18 @@
 }
 
 #button100{
+    display: flex;
     margin-top: 100px;
     border-radius: 10px 10px;
     background-color: white;
     width: 100%;
-    height: 150px;
+    height: 12.5rem;
     text-align: center;
-    color: black;
+    color: #736C4D;
     justify-content: center;
     font-size: 8em;
+}
+
+#button100 p{
+    margin-top: 1.5rem;
 }

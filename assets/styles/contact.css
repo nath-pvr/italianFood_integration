@@ -2,24 +2,27 @@
     position: relative;
     display: flex;
     background-color: #736C4D;
+    flex-wrap: wrap;
 }
 
 #ContactUs {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
-    width: 50%;
-    margin-left: 2%;
+    width: 60%;
     font-size: 2em;
 
 }
 
 #spag {
     
-    padding-top: 10%;
+    /* padding-top: 10%; */
     padding-left: 5%;
     width: 40%;
+}
+
+#spag img{
+    width: 100%;
 }
 
 
@@ -32,10 +35,15 @@
     padding-bottom: 5%;
 }
 
+#ContactUs h2, #ContactUs p, .button{
+    margin-left: 2%;
+}
 
 .button{
     background-color:  #bf964b;
     justify-content: flex-end;
+    text-align: center;
+    font-size: 2rem;
     width: 20%;
     padding: 1rem;
 }
