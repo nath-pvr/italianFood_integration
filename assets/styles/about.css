@@ -1,0 +1,40 @@
+#gr2{
+    display: flex;
+}
+
+#AboutBg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Img/Fond/gr2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transform: translateX(-46.5%);
+    
+}    
+
+#AboutUS{
+    
+    position: relative;
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    left: 30%;
+    width: 30%;
+}
+
+.About {
+    color: white;
+}
+
+h2.About{
+    font-size: 6vh;
+}
+
+p.About{
+    font-size: 3.5vh;
+    text-align: justify;
+}

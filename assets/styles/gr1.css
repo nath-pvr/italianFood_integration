@@ -1,0 +1,39 @@
+#gr1 {
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0)),url(../img/fond/fondPartie1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+}
+
+
+#restaurantName{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    font-size: 12rem;
+    padding-bottom: 10%;
+}
+
+
+#button{
+    font-size: 2rem;
+    background-color: #bf964b;
+
+    margin-right: 2em;
+
+    padding: 0.6em 0.8em 0.6em 0.8em;
+}
+
+h1{
+    font-size: 8rem;
+    width: 30%;
+}
+
+#restaurantName h1 span{
+    font-size: 6rem;
+}
+/* main */

@@ -1,0 +1,47 @@
+#sectionGr5{
+    overflow-x: hidden ;
+}
+
+#gr5Bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../Img/Fond/gr5.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    transform: translateX(20%);
+    
+}
+
+#gr5{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    padding-top: 200px;
+    margin-left: 10%;
+}
+
+#firstTime{
+    position: relative;
+    text-align: justify;
+    width: 100%;
+    font-size:6em ;
+}
+
+#click{
+    font-size: 3em;
+    width: 100%;
+    text-align: justify;
+}
+
+#button100{
+    margin-top: 100px;
+    border-radius: 10px 10px;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    font-size: 8em;
+}
