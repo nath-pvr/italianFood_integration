@@ -9,6 +9,7 @@
     background-image: url(../Img/Fond/gr2.png);
     background-position: bottom;
     background-repeat: no-repeat;
+    background-size: contain;
     transform: translateX(-46.5%);
     
 }    
@@ -22,13 +23,43 @@
     width: 50%;
 }
 
-
-
 #AboutH{
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 #AboutP{
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: justify;
+}
+
+@media screen and (max-width: 1000px){
+    #AboutBg{
+        width: 100%;
+        background-position: center;
+    }
+
+    #AboutH{
+        font-size: 6rem;
+    }
+
+    #AboutP{
+        font-size: 3rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #AboutBg{
+        width: 100%;
+        background-position: center;
+    }
+
+    #AboutH{
+        font-size: 4rem;
+    }
+
+    #AboutP{
+        font-size: 2rem;
+        text-align: justify;
+    }
 }
