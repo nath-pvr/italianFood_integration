@@ -21,7 +21,7 @@
 
 
 #button{
-    font-size: 2rem;
+    font-size: 4rem;
     background-color: #bf964b;
 
     margin-right: 2em;
@@ -30,11 +30,11 @@
 }
 
 h1{
-    font-size: 8rem;
+    font-size: 12rem;
     width: 30%;
 }
 
 #restaurantName h1 span{
-    font-size: 6rem;
+    font-size: 8rem;
 }
 /* main */

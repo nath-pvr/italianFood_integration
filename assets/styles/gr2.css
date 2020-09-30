@@ -14,27 +14,21 @@
 }    
 
 #AboutUS{
-    
     position: relative;
-     
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
-    left: 30%;
-    width: 30%;
+    left: 35%;
+    width: 50%;
 }
 
-.About {
-    color: white;
+
+
+#AboutH{
+    font-size: 10rem;
 }
 
-h2.About{
-    font-size: 6vh;
-}
-
-p.About{
-    font-size: 3.5vh;
+#AboutP{
+    font-size: 5rem;
     text-align: justify;
 }
