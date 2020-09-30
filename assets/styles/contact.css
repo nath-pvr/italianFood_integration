@@ -27,12 +27,13 @@
 
 
 #ContactUs h2 {
-    font-size: 6vh;
+    font-size: 5rem;
 }
 
 #ContactUs p{
     padding-top: 5%;
     padding-bottom: 5%;
+    font-size: 2.5rem;
 }
 
 #ContactUs h2, #ContactUs p, .button{
@@ -43,8 +44,54 @@
     background-color:  #bf964b;
     justify-content: flex-end;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 20%;
-    height: 5%;
-    /* padding: 1rem; */
+    height: 6%;
+    
 }
+
+@media screen and (max-width: 1250px){
+
+    #Contact{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #ContactUs h2{
+        font-size: 4rem;
+    }
+
+    #ContactUs p, .button{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 1169px){
+    #spag{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    
+    #spag{
+        width: 40%;
+    }
+    
+    .button{
+        width: 30%;
+        height: auto;
+    }
+
+    #ContactUs h2{
+        font-size: 3rem;
+    }
+
+    #ContactUs p{
+        text-align: justify;
+    }
+
+}
+
