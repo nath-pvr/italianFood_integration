@@ -38,3 +38,50 @@ h1{
     font-size: 8rem;
 }
 /* main */
+
+/* responsive (media querys) */
+@media screen and (max-width: 1000px) {
+
+    #restaurantName {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 0;
+        font-size: 10rem;
+    }
+
+    h1 {
+        transform: translateX(-50%);
+    }
+
+    #button{
+        font-size: 3rem;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+
+    #restaurantName {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    h1 {
+        padding-top: 20%;
+        text-align: justify;
+        font-size: 6rem;
+    }
+
+    #restaurantName h1 span {
+        font-size: 4rem;
+    }
+
+    #button{
+        font-size: 2rem;
+    }
+}
