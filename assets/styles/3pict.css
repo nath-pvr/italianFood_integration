@@ -7,7 +7,7 @@
     padding-top: 5%;
     display: flex;
     justify-content: center;
-    font-size: 12rem;
+    font-size: 10rem;
 }
 
 #imgBlock{
@@ -28,4 +28,26 @@
     flex-direction: column;
     width: 329px;
     padding-top: 10%;
+}
+
+/* responsive*/
+
+@media screen and (max-width: 1250px){
+    #imgBlock{
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    #golden h2{
+        font-size: 8rem;
+    }
+}
+
+@media screen and (max-width: 950px){
+    #golden h2{
+        font-size: 6rem;
+    }
 }
