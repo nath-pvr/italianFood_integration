@@ -6,3 +6,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* responsive */
+
+@media screen and ( max-width: 1450px){
+    #cocotes{
+        min-width: 100%;
+        min-height: auto;
+    }
+}
