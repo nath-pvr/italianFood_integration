@@ -36,3 +36,17 @@ header {
     
     color: white;
 }
+
+/* responsive */
+
+@media screen and (max-width:1000px){
+    #menuContainer ul{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    #menuContainer ul{
+        font-size: 1.5rem;
+    }
+}
