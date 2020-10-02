@@ -34,3 +34,23 @@
     justify-content: space-between;
 }
 
+/* responsive */
+
+@media screen and (max-width: 1250px){
+    #adressP{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    #adressP{
+        font-size: 3rem;
+    }
+}
+
+@media screen and ( max-width:400px){
+
+    #adressP{
+        font-size: 2.5rem;
+    }
+}
