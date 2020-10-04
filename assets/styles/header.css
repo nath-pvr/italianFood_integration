@@ -51,7 +51,8 @@ header {
 
 @media screen and (max-width:800px) {
 
-    #menuContainer{
+
+    #menuContainer {
         position: absolute;
         top: 3rem;
         right: 3rem;
@@ -60,7 +61,7 @@ header {
         display: block;
     }
 
-    #olive{
+    #olive {
         width: 0;
     }
 
@@ -69,6 +70,7 @@ header {
         width: 5rem;
         height: 5rem;
         border-radius: 50%;
+        background-color: #f6b93b;
         float: right;
     }
 
@@ -84,7 +86,7 @@ header {
         width: 22px;
         height: 2px;
         transform: translateX(-50%) translateY(-50%);
-        background-color: #f6b93b;
+        background-color: #736C4D;
     }
 
     .headerIcon::before {
@@ -95,7 +97,7 @@ header {
         display: block;
         width: 22px;
         height: 2px;
-        background-color: #f6b93b;
+        background-color: #736C4D;
         transform: translateY(-6px);
         transition: transform 0.5s;
     }
@@ -108,7 +110,7 @@ header {
         display: block;
         width: 22px;
         height: 2px;
-        background-color: #f6b93b;
+        background-color: #736C4D;
         transform: translateY(6px);
         transition: transform 0.5s;
     }
@@ -147,62 +149,98 @@ header {
 
     /* debutAnimation */
 
-.with--sidebar #burger {
-    transform: translateY(50px);
-    opacity: 1;
-}
+    .with--sidebar .site-cache {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
 
-.with--sidebar .site-cache {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-}
 
- #burger:hover .headerIcon, #burger:hover .headerIcon::before, #burger:hover .headerIcon::after {
-    background-color:#FFD54F;
-}
+    #burger:hover .headerIcon,
+    #burger:hover .headerIcon::before,
+    #burger:hover .headerIcon::after {
+        background-color: #736C4D;
+    }
 
-.headerIcon::before:hover {
-    transform: translateY(-8px);
-}
+    .headerIcon::before:hover {
+        transform: translateY(-8px);
+    }
 
-.headerIcon::after:hover {
-    transform: translateY(8px);
-}
+    .headerIcon::after:hover {
+        transform: translateY(8px);
+    }
 
-/* debutCrossAnimation */
+    .with--sidebar #menuContainer{
+        background-color: #736C4D ;
+        width: 12rem;
+        height: 32rem;
 
-.with--sidebar #burger:hover .headerIcon {
-    background-color: transparent;
-}
+    }
 
-.with--sidebar .headerIcon {
-    background: transparent;
-}
+    .with--sidebar #burger{
+        right: 3rem;
+        top: 1rem;
+        background-color: #868061 ;
+    }
 
-.with--sidebar .headerIcon::before {
-    transform: translateY(0) rotate(45deg);
-    background-color: #f6b93b;
-}
+    .with--sidebar #menu {
+        opacity: 1;
+        width: 120px;
+        height: 90px;
+        transition: all 0.5s ease;
+        position: absolute;
+        right: 0;
+        top: 1rem;
+        bottom: 0;
+        background-color: #736C4D;
+        transform: translateY(90px);
+    }
 
-.with--sidebar .headerIcon::after {
-    transform: translateY(0) rotate(-45deg);
-    background-color: #f6b93b;
-}
+    .with--sidebar #menu ul {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20%;
+    } 
 
-.with--sidebar .headerIcon::before, .with--sidebar .headerIcon::after {
-    transform-origin: 50% 50%;
-}
+    /* debutCrossAnimation */
 
-.with--sidebar .headerIcon {
-    transition: background 0.5s;
-}
+    .with--sidebar #burger:hover .headerIcon {
+        background-color: transparent;
+    }
 
-/* finCrossAnimation */
+    .with--sidebar .headerIcon {
+        background: transparent;
+    }
 
-/* finAnimation */
+    .with--sidebar .headerIcon::before {
+        transform: translateY(0) rotate(45deg);
+        background-color: #736C4D;
+    }
+
+    .with--sidebar .headerIcon::after {
+        transform: translateY(0) rotate(-45deg);
+        background-color: #736C4D;
+    }
+
+    .with--sidebar .headerIcon::before,
+    .with--sidebar .headerIcon::after {
+        transform-origin: 50% 50%;
+        background-color: #f6b93b;
+    }
+
+    .with--sidebar .headerIcon {
+        transition: background 0.5s;
+    } 
+
+    /* finCrossAnimation */
+
+    /* finAnimation */
 
 }

@@ -1,4 +1,4 @@
-#cocotes{
+.cocotes{
     position: absolute;
     background-image: url("../Img/pictures/cocotes.png");
     width: 100%;
@@ -9,9 +9,9 @@
 
 /* responsive */
 
-@media screen and ( max-width: 1450px){
+/* @media screen and ( max-width: 1450px){
     #cocotes{
         min-width: 100%;
         min-height: auto;
     }
-}
+} */
